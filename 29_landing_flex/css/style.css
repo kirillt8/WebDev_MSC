@@ -1,0 +1,215 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 1440px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.main {
+	margin-top: 140px;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	opacity: 0.9;
+	width: 1440px;
+	height: 140px;
+	font-size: 50px;
+	line-height: 57px;
+	color: #E50043;
+
+}
+
+.header-item-one {
+	position: relative;
+	left: 50px;
+	top: 50px;
+	display: inline-block;
+}
+
+.header-item-two {
+	position: relative;
+	left: 780px;
+	top: 50px;
+	display: inline-block;
+}
+
+.header-item-three {
+	position: relative;
+	left: 805px;
+	top: 50px;
+	display: inline-block;
+}
+
+.header-item-four {
+	position: relative;
+	left: 830px;
+	top: 50px;
+	display: inline-block;
+}
+
+.flex-background {
+	width: 1440px;
+	height: 950px;
+	background-image: url(../img/evian_origins_logo.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.background-text {
+	font-size: 100px;
+	color: #E50043;
+}
+
+.flex-border-1 {
+	width: 1440px;
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border-1 {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.border-text-1 {
+	font-family: 'Roboto', sans-serif;
+	width: 992px;
+	height: 232px;
+	font-size: 25px;
+	line-height: 29px;
+	margin: 24px;
+	letter-spacing: 0.05em;
+}
+
+.flex-bottles {
+	width: 1040px;
+	height: 863px;
+	display: flex;
+	margin-left: 200px;
+}
+
+.bottle-1 {
+	width: 281px;
+	height: 863px;
+	background-image: url(../img/wang.png);
+	margin-right: 100px;
+}
+
+.bottle-2 {
+	width: 279px;
+	height: 863px;
+	background-image: url(../img/blue.png);
+	margin-right: 100px;
+}
+
+.bottle-3 {
+	width: 280px;
+	height: 863px;
+	background-image: url(../img/chiara.png);
+}
+
+.flex-description {
+	width: 1040px;
+	height: 106px;
+	display: flex;
+	text-align: center;
+	margin-left: 216px;
+	font-size: 24px;
+}
+
+.text-1 {
+	width: 248px;
+	height: 58px;
+	margin-right: 137px;
+	margin-top: 42px;
+}
+
+.text-2 {
+	width: 249px;
+	height: 58px;
+	margin-right: 137px;
+	margin-top: 42px;
+}
+
+.text-3 {
+	width: 237px;
+	height: 58px;
+	margin-top: 42px;
+}
+
+.flex-border-2 {
+	width: 1440px;
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border-2 {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.border-text-2 {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	width: 749px;
+	height: 220px;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	margin-top: 22px;
+}
+
+.border-image-2 {
+	display: inline-block;
+	width: 101px;
+	height: 220px;
+	background-image: url(../img/glass.png);
+	margin: 30px 80px 30px 80px;
+	float: left;
+}
+
+.footer {
+	width: 1440px;
+	height: 140px;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+	background-color: #F8BFC7;
+	display: inline-block;
+}
+
+.footer-item-one {
+	display: inline-block;
+	margin: 50px 0px 50px 50px;
+}
+
+.footer-item-two {
+	display: inline-block;
+	float: right;
+	margin: 50px 50px 50px 0px;
+}

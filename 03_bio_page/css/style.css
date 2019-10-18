@@ -1,4 +1,13 @@
-.header-container, .sectionText {
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.header-container, .sectionText, .footer-container {
 	background: black;
 	color: white;
-} 
+}
+
+.footer-container {
+	text-align: right;
+}
