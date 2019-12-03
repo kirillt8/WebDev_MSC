@@ -6,7 +6,6 @@ a {
 }
 
 body {
-	width: 1440px;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 20px;
 	line-height: 23px;
@@ -17,7 +16,6 @@ body {
 }
 
 .header {
-	width: 1440px;
 	height: 60px;
 	background-color: red;
 	line-height: 60px;
@@ -63,7 +61,6 @@ body {
 }
 
 .footer {
-	width: 1440px;
 	height: 60px;
 	line-height: 60px;
 	background-color: red;

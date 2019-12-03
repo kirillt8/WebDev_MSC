@@ -11,12 +11,12 @@ body {
 
 .heading {
 	height: 200px;
-	width: 1440px;
 	color: white;
 	line-height: 200px;
 	background-color: blue;
 	font-weight: bold;
 	font-family: 'Verdana', sans-serif;
+	margin-top: -40px;
 }
 
 .heading h1 {
@@ -25,13 +25,14 @@ body {
 }
 
 .background-image {
+	background-image: url(../img/img.png);
 	height: 1080px;
-	width: 1440px;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .links {
 	height: 100px;
-	width: 1440px;
 	color: white;
 	line-height: 100px;
 	background-color: blue;
@@ -46,7 +47,6 @@ body {
 }
 
 .content {
-	width: 1280px;
 	background-color: #FFFFFF;
 	font-size: 50px;
 	padding-left: 80px;
@@ -55,7 +55,6 @@ body {
 }
 
 .footer {
-	width: 1440px;
 	height: 200px;
 	background-color: blue;
 	background-image: url(../img/logo.png);

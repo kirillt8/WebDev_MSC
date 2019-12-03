@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+	height: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FEB700;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+
+.flex-columns {
+	width: 91vw;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.image-1 {
+	background-image: url(../img/1.jpg);
+	padding-bottom: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.image-2 {
+	background-image: url(../img/2.jpg);
+	padding-bottom: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.image-3 {
+	background-image: url(../img/3.jpg);
+	padding-bottom: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+span {
+	font-weight: bold;
+}
+
+p {
+	margin: 33px;
+}
+
+.footer {
+	display: flex;
+	height: auto;
+	text-transform: uppercase;
+	justify-content: space-between;
+	background-color: #FEB700;
+	font-size: 50px;
+	align-items: center;
+}
+
+.footer-div-1, .footer-div-2 {
+	margin: 50px;
+}

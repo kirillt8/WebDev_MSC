@@ -3,7 +3,6 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	width: auto;
 	margin-top: 140px;
 }
 
@@ -119,8 +118,8 @@ a {
 .border-2-image {
 	background-image: url(../img/glass.jpg);
 	height: 220px;
-	width: 110px;
-	margin: 30px 60px 20px 60px;
+	width: 160px;
+	margin: 30px 30px 20px 54px;
 }
 
 .border-2-text {
